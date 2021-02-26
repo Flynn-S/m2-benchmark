@@ -1,0 +1,1 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="product-tile__button-image" width="16"  height="13" ><!----><!----><use ng-if="!tile.data.isInCart" xlink:href="/svg/cc041adc.svg#button-add-to-cart"></use><!----></svg>

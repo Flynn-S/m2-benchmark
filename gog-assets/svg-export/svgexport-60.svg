@@ -1,0 +1,2 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" role="img" class="product-tile__platforms-item product-tile__platforms-item--linux
+                        " ng-show="!tile.data.isMovie" width="100"  height="100" ><use xlink:href="/svg/cc041adc.svg#linux" fill="#999999"></use></svg>

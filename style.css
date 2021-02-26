@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lato', sans-serif
+}
+
+.navbar {
+    height: 7vh;
+}
+
+.navbar .navbar-nav .nav-item .dropdown a {
+    font-size: 0.9rem;
+}
+.nav-bg {
+    background-color: rgb(19, 19, 19);
+  }
+
+  .nav-link {
+    color: white;
+  }
+  
+  .nav-link a:hover {
+    font-weight: 700;
+  }
+  
+  .btn-secondary {
+    background-color: black;
+    border: none;
+  }
+  
+  .dropdown-menu {
+    background-color: black;
+  }
+  
+  .dropdown-item {
+    color: white;
+  }
+  
