@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', sans-serif
 }
 
+
 .navbar {
     height: 7vh;
 }
@@ -11,26 +12,55 @@ body {
 }
 .nav-bg {
     background-color: rgb(19, 19, 19);
-  }
+}
 
-  .nav-link {
+.nav-link {
     color: white;
-  }
-  
-  .nav-link a:hover {
+}
+
+.nav-link a:hover {
     font-weight: 700;
-  }
-  
-  .btn-secondary {
+}
+
+.btn-secondary {
     background-color: black;
     border: none;
-  }
-  
-  .dropdown-menu {
+}
+
+.dropdown-menu {
     background-color: black;
-  }
-  
-  .dropdown-item {
+}
+
+.dropdown-item {
     color: white;
-  }
+}
   
+
+.highlights h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    padding-left: 0.5rem;
+}
+
+.carousel-item > img {
+    border-radius: 0.4rem;
+}
+.carousel-caption h5 {
+    text-align: left;
+}
+
+.carousel-indicators {
+    bottom:-50px;
+}
+
+.carousel-indicators li {
+    background-color: rgb(136, 35, 167);
+}
+
+.section-1 {
+    padding-top: 45px;
+}
+
+.section-2 .weekly-sale {
+    
+}
