@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg netflix-nav-bg">
+    <a class="navbar-brand mx-4" href="#"><img src="Netflix_Logo_PMS.png" width="120"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mx-3mt-2 mt-lg-0">
+          <li id="homeLink" class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My List</a>
+          </li>
+
+      </ul mx-5>
+      <ul class="navbar-nav mx-5 mt-2 mt-lg-0 form-inline">
+
+          <li class="nav-item">
+
+            <a id="searchBtn" class="nav-link btn px-1 py-1" data-toggle="collapse" href="#collapseExample" role="button" onclick="iconDisplay()" aria-expanded="false" aria-controls="collapseExample">
+              <ion-icon name="search-outline" class="text-white"></ion-icon>
+            </a>
+
+          </li>
+          <div class="collapse" id="collapseExample">
+            <form class="form-inline my-sm-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            </form>
+          </div>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">KIDS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+          </li>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="netflixAvatar2.png" width="30"/>
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#"><img src="netflixAvatar2.png" width="30"/>Profile1</a>
+              <a class="dropdown-item" href="#"><img src="netflixAvatar.png" width="30"/>Profile2</a>
+              <a class="dropdown-item" href="#">Account</a>
+            </div>
+          </div>
+        </ul>       
+
+    </nav>
